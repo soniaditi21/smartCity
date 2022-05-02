@@ -7,7 +7,7 @@ import './HeroSection.css';
 function HeroSection() {
   return (
     <div className='hero-container'>
-      <h1>PARADISE IN JABALPUR</h1>
+      <h1 className="paradise">PARADISE IN JABALPUR</h1>
       <p>What are you waiting for?</p>
       <div className='hero-btns'>
       
@@ -21,6 +21,9 @@ function HeroSection() {
          GET STARTED <i className='far fa-play-circle' />
         </Button>
         </Link>
+      </div>
+      <div>
+        
       </div>
     </div>
   );

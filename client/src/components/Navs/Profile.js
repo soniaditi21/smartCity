@@ -1,7 +1,7 @@
 import { Typography, Menu, MenuItem } from '@mui/material';
 import React, {  useState } from 'react';
 import { makeStyles } from '@mui/styles';
-
+import LogoutIcon from '@mui/icons-material/Logout';
 import { Link } from 'react-router-dom';
 const useStyle = makeStyles({
 
@@ -10,11 +10,11 @@ component: {
   marginTop: 40
 },
   userStyle: {
-    margin: 6,
-    color: '#DCE5AE',
-    fontWeight: 600,
+    marginTop: '45%',
+    color: '#fff',
+    fontWeight: 500,
     marginRight: 15,
-    fontSize: 17
+    fontSize: '18px',
   }
 
 });
@@ -50,7 +50,9 @@ const Profile = ({account, setAccount}) => {
      >
    <MenuItem onClick={() => {handleClose(); logout();}}>
    
-   Log Out</MenuItem>
+   Log Out
+   <LogoutIcon/>
+   </MenuItem>
  </Menu>
   </>
   )

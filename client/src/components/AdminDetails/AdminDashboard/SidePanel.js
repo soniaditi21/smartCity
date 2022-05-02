@@ -18,20 +18,25 @@ export default function SidePanel(admin) {
   return (
     <div className="panelRoot">
       <div className="profile-container">
-        <IconButton size="small" aria-label="show 4 new mails" >
+        <IconButton size="small" aria-label="show 4 new mails" style={{color: 'white',marginRight: '2%'}} >
           <AccountCircle />
         </IconButton>
-        <Typography className="adminName">{admin.admins.username}</Typography>
+        <Typography
+        style={{
+          color: 'white',
+          margin: '2%',
+          fontSize: '20px',
+        }}>{admin.admins.username}</Typography>
       </div>
 
       <div className="item-list">
         
           <Link
             to={{ pathname: "/adminDashboard" }}
-            style={{ textDecoration: "none", color: '#FFD700' }}
+            style={{ textDecoration: "none", color: '#fff' }}
           >
             <Box className='item'>
-            <Typography style={{fontSize: '18px'}}>Dashboard</Typography>
+            <Typography style={{fontSize: '18px',color: '#fff'}}>Dashboard</Typography>
             </Box>
           </Link>
        
@@ -39,7 +44,7 @@ export default function SidePanel(admin) {
         
           <Link
             to={{ pathname: "/addATM" }}
-            style={{ textDecoration: "none", color: '#FFD700' }}
+            style={{ textDecoration: "none",color: '#fff'  }}
           >
             <Box className='item'>
             <Typography style={{fontSize: '18px'}}>ATMS</Typography>
@@ -50,7 +55,7 @@ export default function SidePanel(admin) {
 
           <Link
             to={{ pathname: "/addHospital" }}
-            style={{ textDecoration: "none", color: '#FFD700' }}
+            style={{ textDecoration: "none", color: '#fff'  }}
           >
             <Box className='item'>
             <Typography style={{fontSize: '18px'}}>Hospitals</Typography>
@@ -62,7 +67,7 @@ export default function SidePanel(admin) {
 
           <Link
             to={{ pathname: "/addHotel" }}
-            style={{ textDecoration: "none", color: '#FFD700' }}
+            style={{ textDecoration: "none", color: '#fff'  }}
           >
             <Box className='item'>
             <Typography style={{fontSize: '18px'}}>Hotels</Typography>
@@ -73,7 +78,7 @@ export default function SidePanel(admin) {
 
           <Link
             to={{ pathname: "/addSchool" }}
-            style={{ textDecoration: "none" , color: '#FFD700'}}
+            style={{ textDecoration: "none" , color: '#fff' }}
           >
             <Box className='item'>
             <Typography style={{fontSize: '18px'}}>School</Typography>
@@ -83,7 +88,7 @@ export default function SidePanel(admin) {
 
           <Link
             to={{ pathname: "/addCollege" }}
-            style={{ textDecoration: "none" , color: '#FFD700'}}
+            style={{ textDecoration: "none" , color: '#fff' }}
           >
             <Box className='item'>
             <Typography style={{fontSize: '18px'}}>Colleges</Typography>
@@ -94,7 +99,7 @@ export default function SidePanel(admin) {
 
           <Link
             to={{ pathname: "/addLibrary" }}
-            style={{ textDecoration: "none", color: '#FFD700' }}
+            style={{ textDecoration: "none", color: '#fff'  }}
           >
             <Box className='item'>
             <Typography style={{fontSize: '18px'}}>Libraries</Typography>
@@ -105,7 +110,7 @@ export default function SidePanel(admin) {
 
           <Link
             to={{ pathname: "/addShoppingMalls" }}
-            style={{ textDecoration: "none", color: '#FFD700' }}
+            style={{ textDecoration: "none", color: '#fff' }}
           >
             <Box className='item'>
             <Typography style={{fontSize: '18px'}}>Shopping Malls</Typography>
@@ -116,7 +121,7 @@ export default function SidePanel(admin) {
 
           <Link
             to={{ pathname: "/addTemple" }}
-            style={{ textDecoration: "none", color: '#FFD700' }}
+            style={{ textDecoration: "none", color: '#fff'  }}
           >
             <Box className='item'>
             <Typography style={{fontSize: '18px'}}>Temples</Typography>
@@ -127,7 +132,7 @@ export default function SidePanel(admin) {
 
           <Link
             to={{ pathname: "/addTourism" }}
-            style={{ textDecoration: "none", color: '#FFD700' }}
+            style={{ textDecoration: "none",color: '#fff' }}
           >
             <Box className='item'>
             <Typography style={{fontSize: '18px'}}>Tourism</Typography>
@@ -138,7 +143,7 @@ export default function SidePanel(admin) {
 
           <Link
             to={{ pathname: "/addTransport" }}
-            style={{ textDecoration: "none", color: '#FFD700' }}
+            style={{ textDecoration: "none", color: '#fff'  }}
           >
             <Box className='item'>
             <Typography style={{fontSize: '18px'}}>Transport</Typography>

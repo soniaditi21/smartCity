@@ -1,21 +1,22 @@
-import mongoose from 'mongoose';
 
 
+import  mongoose  from "mongoose";
 
-
-const collegeSchema =  new mongoose.Schema({
-  id:{
-    type: String,
-    required: true,
-  },
-    name:{
+const collegeSchema = new mongoose.Schema({
+ 
+    itemTitle:{
         type: String,
         required: true,
+        unique: true,
     },
-    address:{
+    primaryAddress:{
        type: String,
        required: true,
     },
+    secondaryAddress:{
+      type: String,
+      required: true,
+   },
     image: {
       type: String,
       required: true,
@@ -24,12 +25,12 @@ const collegeSchema =  new mongoose.Schema({
       type: String,
       required: true,
     },
-    site:{
+    website:{
       type: String,
       required: true,
     }
-})
 
-const college= mongoose.model('college', collegeSchema);
+});
 
-export default college;
+const colleges = mongoose.model('college', collegeSchema);
+export default colleges;

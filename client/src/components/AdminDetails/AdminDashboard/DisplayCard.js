@@ -3,12 +3,14 @@ import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
-import { Button, CardActionArea, CardActions } from '@mui/material';
-
+import {  CardActionArea, CardActions } from '@mui/material';
+import './DisplayCard.css'
+import { Link } from 'react-router-dom';
 export default function MultiActionAreaCard(title) {
    
   return (
-    <Card sx={{ maxWidth: 345 }}>
+    <Link to={{pathname: `/add${title.title.name}`}} style={{textDecoration: 'none'}}>  
+    <Card sx={{ maxWidth: 345 }} className='cardRoot'>
       <CardActionArea>
         <CardMedia
           component="img"
@@ -16,18 +18,21 @@ export default function MultiActionAreaCard(title) {
           image={title.title.image}
           alt="green iguana"
         />
-        <CardContent>
-          <Typography gutterBottom variant="h5" component="div">
+        <CardContent style={{backgroundColor: '#1d1a27'}}>
+          <Typography gutterBottom variant="h5" component="div" style={{color: 'white'}}>
             {title.title.name}
           </Typography>
-         
+         {}
         </CardContent>
       </CardActionArea>
-      <CardActions>
-        <Button size="small" color="primary">
+      <CardActions style={{backgroundColor: '#1d1a27'}}>
+        <Link to={{pathname: `/add${title.title.name}`}}>  
+        <button className='addButton'>
           Add
-        </Button>
+        </button>
+        </Link>
       </CardActions>
     </Card>
+    </Link>
   );
 }

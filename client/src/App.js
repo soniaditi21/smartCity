@@ -51,16 +51,16 @@ function App() {
         <Route path='/addTransport' element={<AddTransport/>}/>
 
         <Route path='/dashboard' element={<Dashboard/>}/>
-        <Route path='/atms' element={<ATMs/>}/>
-        <Route path='/hospitals' element={<Hospitals/>}/>
-        <Route path='/hotels' element={<Hotels/>}/>
-        <Route path='/schools' element={<Schools/>}/>
-        <Route path='/colleges' element={<Colleges/>}/>
-        <Route path='/libraries' element={<Libraries/>}/>
-        <Route path='/shoppingMalls' element={<ShoppingMalls/>}/>
-        <Route path='/tourism' element={<Tourism/>}/>
-        <Route path='/temples' element={<Temples/>}/>
-        <Route path='/transports' element={<Transports/>}/>
+        <Route path='/ATM' element={<ATMs/>}/>
+        <Route path='/Hospital' element={<Hospitals/>}/>
+        <Route path='/Hotel' element={<Hotels/>}/>
+        <Route path='/School' element={<Schools/>}/>
+        <Route path='/College' element={<Colleges/>}/>
+        <Route path='/Library' element={<Libraries/>}/>
+        <Route path='/ShoppingMalls' element={<ShoppingMalls/>}/>
+        <Route path='/Tourism' element={<Tourism/>}/>
+        <Route path='/Temple' element={<Temples/>}/>
+        <Route path='/Transport' element={<Transports/>}/>
       </Routes>
       
     </Router>
@@ -71,3 +71,5 @@ function App() {
 }
 
 export default App;
+
+// https://cdn.pixabay.com/photo/2016/11/07/13/04/yoga-1805784_960_720.png

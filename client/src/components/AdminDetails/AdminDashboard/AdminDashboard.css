@@ -3,6 +3,10 @@
 }
 .headingTypo{
     font-size: 24px;
+    color: white;
+}
+.subHeading{
+    color: #fff;
 }
 .mainConraine{
     width: 65%;
@@ -11,9 +15,19 @@
     display: flex;
    
 }
+.itemCard{
+    background: rgba(0, 0, 0, 0.3);
+    box-shadow: rgba(45, 45, 152, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+}
+.itemCard:hover{
+    box-shadow: rgba(1045, 135, 100, 0.4) 0 8px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #935baf 0 -3px 0 inset;
+
+}
 .sidePanel{
     width: 35%;
     margin-right: 2%; 
     border-radius: 0 10px 10px 0;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    position: sticky;
+    box-shadow: rgba(45, 45, 152, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }

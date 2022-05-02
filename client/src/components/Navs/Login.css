@@ -1,0 +1,66 @@
+.loginTextField{
+    flex-direction: column;
+    margin: 5%;
+}
+.loginDialogBtn{
+    color: white;
+    background-color: #13111a;
+    margin: 5% 0;
+    padding: 3% 6%;
+    border-radius: 5px;
+    font-size: 18px;
+    border: 1px solid #935baf;
+    cursor: pointer;
+}
+.loginDialogBtn:hover{
+    box-shadow: rgba(1045, 135, 100, 0.4) 0 8px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #935baf 0 -3px 0 inset;
+
+}
+.createNewAccount{
+    margin-top: 5%;
+    text-align: center;
+    color:aliceblue;
+    
+}
+.signUpDialogBtn{
+    color: white;
+    background-color: #13111a;
+    margin: 2% 0;
+    padding: 3% 6%;
+    border-radius: 5px;
+    font-size: 18px;
+    width: 50%;
+    border: 1px solid #935baf
+}
+.signUpDialogBtn:hover{
+    box-shadow: rgba(1045, 135, 100, 0.4) 0 8px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #935baf 0 -3px 0 inset;
+
+}
+.adminLoginBtn{
+    color: white;
+    background-color: #13111a;
+    margin: 2% 0;
+    padding: 3% 6%;
+    border-radius: 5px;
+    font-size: 18px;
+    width: 50%;
+    border: 1px solid #935baf;
+}
+.textfields{
+    width: 90%;
+    margin-left: 5%;
+}
+.alreadyhaveanaccount{
+    text-align: center;
+    color: white;
+    margin-top: 5%;
+}
+.typoLink{
+    cursor: pointer;
+    margin-top: 3%;
+   
+   
+}
+.typoLink:hover{
+    text-shadow: 2px 5px 15px #fff;
+}

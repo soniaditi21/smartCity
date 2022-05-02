@@ -1,22 +1,36 @@
-import mongoose from 'mongoose';
 
 
+import  mongoose  from "mongoose";
 
-
-const librarySchema =  new mongoose.Schema({
-    name:{
+const librarySchema = new mongoose.Schema({
+ 
+    itemTitle:{
         type: String,
         required: true,
+        unique: true,
     },
-    address:{
+    primaryAddress:{
        type: String,
        required: true,
     },
+    secondaryAddress:{
+      type: String,
+      required: true,
+   },
     image: {
       type: String,
+      required: true,
+    },
+    contact:{
+      type: String,
+      required: true,
+    },
+    website:{
+      type: String,
+      required: true,
     }
-})
 
-const library= mongoose.model('library', librarySchema);
+});
 
-export default library;
+const librarys = mongoose.model('library', librarySchema);
+export default librarys;

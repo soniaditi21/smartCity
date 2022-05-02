@@ -17,37 +17,224 @@
 }
 .headingContainer{
   
-    box-shadow: 0 2px 2px #FFD700;
     background: rgba(0,0,0,.5);
      text-align: center;
      margin: 2%;
      border-radius: 10px;
      margin-top: 10%;
+     box-shadow: #b7b4c7 0px 50px 100px -20px, #b7b4c7 0px 30px 60px -30px, #935baf 0px -2px 6px 0px inset;
+
+
+}
+.middleContainer{
+  
+  display: flex;
+  width: 100%;
+}
+.totalQuantityContainer{
+  background: rgba(0,0,0,.5);
+  text-align: center;
+  margin: 2%;
+  border-radius: 10px;
+  margin-top: 5%;
+ padding: 1%;
+  box-shadow: #935baf 0px 5px 10px -20px, #935baf 0px 30px 60px -30px, #935baf 0px -2px 6px 0px inset;
+
+}
+.addMoreBtn{
+ 
+  text-align: center;
+  margin: 2%;
+  border-radius: 10px;
+  margin-top: 5%;
+  margin-left: 45%;
+  width: 30%;
+}
+.addMoreBtn .addBtn{
+  color: #13111a;
+    padding: 8% 20%;
+    display: flex;
+    border : 1px solid #13111a;
+    border-radius: 5px;
+    font-weight: 600;
+    background-color: white;
+  
+    margin: 1%;
+    margin-top: 4%;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.addMoreBtn .addBtn:hover{
+  color: #fff;
+background-color: #13111a;
+border : 1px solid #fff;
+
+box-shadow: rgba(1045, 135, 100, 0.4) 0 8px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #935baf 0 -3px 0 inset;
+
+}
+.addMoreBtn .addBtn a{
+  text-decoration: none;
 }
 .sidePanel{
     width: 25%;
     margin-right: 2%; 
     background: rgba(0,0,0,.5);
     border-radius: 0 10px 10px 0;
-    box-shadow: 0 15px 25px #FFD700;
 }
 
+.table-container {
+  width: 90%;
+  word-wrap: break-word; 
+  background: rgba(0,0,0,.5);
+  border-radius: 10px;
+  padding: 1%;
+  box-shadow: #67326e 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  margin: 3%;
+  overflow-x:scroll;
+}
+
+.table-container .table-header {
+  border-radius: 5px;
+  
+}
+
+.table-container .table-header .table-row .table-column {
+  text-transform: uppercase;
+  color: whitesmoke;
+  font-size: 14px;
+  padding: 16px 10px;
+  background: rgba(89, 37, 91, 0.8);
+  box-shadow: #67326e 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+
+  border-radius: 1px;
+
+}
+.table-container .table-body {
+  background: rgba(0,0,0,.5);
+}
+.table-container .table-body .table-row .table-column {
+  font-size: 14px;
+  color: white;
+}
+
+.table-container .table {
+  width: 100%;
+  min-width: 700px;
+  margin: auto;
+  display: table;
+  /* box-shadow: 0 4px 8px 0 #ebeef2; */
+}
+.table-container .table .row-separator {
+  height: 1px !important;
+}
+.table-container .table .empty-table {
+  padding: 12px 0px;
+  font-size: 14px;
+  color: #333333;
+  line-height: 46px;
+  background-color: white;
+  /* box-shadow: 0 4px 8px 0 #eaf3fe; */
+  margin: auto;
+  text-align: center;
+}
+.empty-table .empty-image {
+  height: 240px;
+}
+.table-row a {
+  text-decoration: none;
+  color: white;
+}
+.table-container .table .table-row {
+  width: 100%;
+  min-width: 700px;
+  margin: auto;
+  background: rgba(0,0,0,.5);
+  /* height: 60px; */
+  box-sizing: border-box;
+  display: table-row;
+  border: 1px solid #243b55;
+}
+/* .table-container .table .table-row:first-child {
+  box-shadow: 0 4px 8px 0 #eaf3fe;
+} */
+.table-container .table .table-row .table-column {
+  display: table-cell;
+
+  border-bottom: 1px solid #243b55;
+  border-right: 1px solid #243b55;
+  vertical-align: middle;
+  margin-left: 1%;
+}
+
+.table-container .table-footer {
+  width: 100%;
+  min-width: 700px;
+  margin: auto;
+  margin-top: 24px;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+.table-container .table-footer .pagination-container {
+  display: flex;
+}
+.table-container .table-footer .rows-showing {
+  font-size: 14px;
+  line-height: 22px;
+  color: #fff;
+  cursor: default;
+}
+.bank {
+  width: 20%;
+  padding: 16px 10px;
+}
+.bank-head {
+  width: 20%;
+}
+.ifsc {
+  width: 15%;
+  padding: 16px 0px;
+}
+.address {
+  width: 25%;
+
+  padding: 16px 10px;
+  word-break: break-all;
+}
+.bank-id {
+  width: 15%;
+
+  padding: 16px 10px;
+}
+.branch {
+  width: 20%;
+ padding: 16px 10px;
+}
+
+.ifsc-head {
+  width: 15%;
+}
+.address-head {
+  width: 25%;
+}
+.bank-id-head {
+  width: 15%;
+}
+.branch-head {
+  width: 20%;
+}
 .login-box {
-    position: absolute;
-    top: 75%;
-    left: 60%;
-    width: 60%;
+   
+   
+    width: 80%;
     padding: 40px;
-    transform: translate(-50%, -50%);
     background: rgba(0,0,0,.5);
     box-sizing: border-box;
-    box-shadow: 0 1px 5px #FFD700;
     border-radius: 10px;
+    margin: 2%;
+    box-shadow: #67326e 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+
   }
-  .login-box .user-box {
-    position: relative;
-  }
-  
+
 .login-box .user-box input {
     width: 100%;
     padding: 10px 0;
@@ -59,45 +246,37 @@
     outline: none;
     background: transparent;
   }
+  .login-box .user-box input:hover{
+    color:#935baf;
+  }
   .login-box .user-box label {
-    position: absolute;
-    top:0;
-    left: 0;
+    
+   
     padding: 10px 0;
     font-size: 16px;
     color: #fff;
     pointer-events: none;
     transition: .5s;
   }
-  .login-box .user-box input:focus ~ label,
-.login-box .user-box input:valid ~ label {
-  top: -20px;
-  left: 0;
-  color: #FFD700;
-  font-size: 12px;
-}
+ 
 
-.login-box form a {
-    position: relative;
-    display: inline-block;
-    padding: 10px 20px;
-    color: #FFD700;
-    font-size: 16px;
-    text-decoration: none;
-    text-transform: uppercase;
-    overflow: hidden;
-    transition: .5s;
-    margin-top: 40px;
-    letter-spacing: 4px
-  }
-  
-  .login-box a:hover {
-    background: #FFD700;
-    color: #fff;
+
+  .formButtons{
+   
+    color: #13111a;
+    padding: 2% 6%;
+    border : 1px solid #13111a;
     border-radius: 5px;
-    box-shadow: 0 0 5px #FFD700,
-                0 0 25px #FFD700,
-                0 0 50px #FFD700,
-                0 0 100px #FFD700;
-  }
-  
+    font-weight: 600;
+    background-color: white;
+    margin: 1%;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.formButtons:hover{
+color: #fff;
+background-color: #13111a;
+border : 1px solid #fff;
+
+box-shadow: rgba(1045, 135, 100, 0.4) 0 8px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #935baf 0 -3px 0 inset;
+
+}

@@ -3,17 +3,17 @@
 export const titles=[
     { 
         id: '1',
-        name: 'ATMs',
+        name: 'ATM',
         image: 'https://imgs.search.brave.com/UKi0GzV42zpTBFj_9SePaC8Gurg4dKW45CVZAUVScaI/rs:fit:874:225:1/g:ce/aHR0cHM6Ly90c2Uy/LmV4cGxpY2l0LmJp/bmcubmV0L3RoP2lk/PU9JUC5sREZMR2dp/cGtkbFFPdVBvWkZr/OHFBSGFFQiZwaWQ9/QXBp',
     },
     { 
         id: '2',
-        name: 'Hospitals',
+        name: 'Hospital',
         image: 'https://imgs.search.brave.com/N39srjJJ1kYstIkN_Nl-AWDicwRGm2NpCRjb8WbZrh8/rs:fit:1276:225:1/g:ce/aHR0cHM6Ly90c2Uz/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5I/MFRRSWRBUmJmZk9i/ZDFtSkpjeFd3SGFD/dyZwaWQ9QXBp',
     },
     { 
         id: '3',
-        name: 'Hotels',
+        name: 'Hotel',
         image: 'https://imgs.search.brave.com/w1FsZxPPLspe8vk7qgfe2lh-Asp8FWbO6ue_k7sMd9Q/rs:fit:844:225:1/g:ce/aHR0cHM6Ly90c2Ux/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5F/QUpNX0ZTUFkyN3o1/SU03U2M5enRRSGFF/SyZwaWQ9QXBp',
     },
     { 
@@ -23,22 +23,22 @@ export const titles=[
     },
     { 
         id: '5',
-        name: 'Colleges',
+        name: 'College',
         image: 'https://imgs.search.brave.com/9pWnYAohp1_xvetVVvarMF6zW96QnINZJU8R6a80pmw/rs:fit:708:225:1/g:ce/aHR0cHM6Ly90c2Uy/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5V/OEtZb0tLWGozcmp4/ZU5jRVAwdmVnSGFF/OSZwaWQ9QXBp',
     },
     { 
         id: '6',
-        name: 'Libraries',
+        name: 'Library',
         image: 'https://imgs.search.brave.com/erAxc5g7kIJiasUWIlAmp2ZaYktT7-D5_ytbvm_y8oo/rs:fit:759:225:1/g:ce/aHR0cHM6Ly90c2Ux/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC4w/c3d6U09mRURyam9l/VkNpRF93dlFRSGFF/byZwaWQ9QXBp',
     },
     { 
         id: '7',
-        name: 'Shopping Malls',
+        name: 'ShoppingMalls',
         image: 'https://imgs.search.brave.com/dRnoCyou6u-vVD3aaBJ00YwHPoWncOT88NzOxRuj4FA/rs:fit:450:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5Z/SlREbnY1VWFwOTY0/UEFGQnRTMVh3QUFB/QSZwaWQ9QXBp',
     },
     { 
         id: '8',
-        name: 'Temples',
+        name: 'Temple',
         image: 'https://imgs.search.brave.com/deUE9lyeVgi3HslQu4qWuQkma3kzolGsYzHttfzSyfo/rs:fit:841:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5t/cnl2SlJ5VlRQTjI3/WjFXRVIxOGh3SGFF/TCZwaWQ9QXBp',
     },
     { 

@@ -11,13 +11,13 @@ export const TemplateProvider = ({children}) => {
       MuiDialog: {
         paperWidthSm: {
           maxWidth: 'unset',
-          
+          maxHeight: 'unset',
         },
        
       },
       MuiDialogContent: {
         root: {
-          padding: 0,
+         
           '&:first-child': {
             paddingTop: 0
           }

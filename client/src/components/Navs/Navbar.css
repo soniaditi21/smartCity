@@ -1,6 +1,6 @@
 .navbar {
   /* background: linear-gradient(#141e30, #243b55); */
-  background: linear-gradient(#141e30, #243b55);
+  background: #13111a;
    display: flex;
     justify-content: center;
     align-items: center;
@@ -8,12 +8,16 @@
     position: sticky;
     top: 0;
     z-index: 999;
-    box-shadow: 0 2px 2px #FFD700;
-
+  
+    border: 1px solid #935baf;
+    border-width: 0 0 1px 0;
+   
+  
   }
   .wrapper{
-    background: rgba(0,0,0,.5);
-    width: 100%
+    background: #13111a;
+    width: 100%;
+    
   }
   
   .navbar-container {
@@ -21,8 +25,9 @@
     
     justify-content: center;
     align-items: center;
-    height: 70px;
+    height: 65px;
     max-width: 1500px;
+    
   }
   
   .navbar-logo {
@@ -164,6 +169,28 @@
     }
   }
 
+  .loginBtn {
+    background-color: white;
+    margin-top: 10%;
+    padding: 40%;
+    color: white;
+   
+    color: #13111a;
+    border: 1px solid #935baf;
+ 
+   padding: 15% 40%;
+    border-radius: 5px;
+    font-size: 18px;
+    margin: 40% 10%;
+  }
+
+   .loginBtn:hover {
+      color: white;
+      background-color: #13111a;
+      box-shadow: rgba(1045, 135, 100, 0.4) 0 8px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #935baf 0 -3px 0 inset;
+
+  }
+  
   /* .appBarTransparent {
     background-color: #00403C;
     background-image: 'linear-gradient(to bottom,  rgba(4, 168, 154, 0.577) 0%,rgba(5, 25, 55, 0.577) 100%)';

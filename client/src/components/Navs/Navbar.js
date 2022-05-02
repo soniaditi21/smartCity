@@ -1,10 +1,11 @@
 import React, {useState,useContext} from 'react';
 import {Link} from 'react-router-dom';
-import { Button } from '../Home/Button';
+
 import './Navbar.css';
 import { LoginContext } from '../../context/ContextProvider';
 import Login from './Login';
 import Profile from './Profile';
+import { Typography } from '@mui/material';
 
 function Navbar() {
    const [click, setClick]=useState(false);
@@ -28,7 +29,7 @@ function Navbar() {
         <nav className='navbar'>
           <div className='wrapper'>
             <div className='navbar-container'>
-            <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+            <Link to='/' className='navbar-logo' onClick={closeMobileMenu} >
          SMARTCITY<i className='fab fa-typo3' />
             </Link>
             <div className='menu-icon' onClick={handleClick}>
@@ -37,18 +38,36 @@ function Navbar() {
        </div>
        <ul className={click ? 'nav-menu active' : 'nav-menu'}>
          <li className='nav-item'>
-        <Link to={{ pathname: `/`}} className='nav-links' onClick={closeMobileMenu}>
-           Home
-        </Link>
-         </li>
+
+{
+  account ? (
+   
+        <Link to={{ pathname: `/adminDashboard`}} className='nav-links' onClick={closeMobileMenu}>
+        Admin Dashboard
+     </Link>
+  ) : (
+    <Link to={{ pathname: `/`}} className='nav-links' onClick={closeMobileMenu}>
+    Home
+ </Link>
+  )
+}
        
+        
+      
+         </li>
+
+         <li className='nav-item'>
+           <Typography className='nav-links'> About Us</Typography>
+       
+        </li >
+        
          <li className='nav-item'>
 
          {
                  account ? <Profile account={account} setAccount={setAccount} /> :
                  <div>
                 <Link to='/' style={{textDecoration: 'none'}}>
-                <Button onClick={() => openLoginDialog()}>Login</Button>
+                <button className="loginBtn" onClick={() => openLoginDialog()}>Login</button>
                 </Link>
                 </div>
 

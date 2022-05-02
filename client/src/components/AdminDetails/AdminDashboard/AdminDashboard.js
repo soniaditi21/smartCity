@@ -20,6 +20,8 @@ const Item = styled(Paper)(({ theme }) => ({
   padding: theme.spacing(1),
   textAlign: 'center',
   color: theme.palette.text.secondary,
+  backgroundImage: 'linear-gradient(to bottom, #ffffff, #c3bfc9, #8e8294, #5f4960, #34142e)',
+  
 }));
 
 
@@ -56,13 +58,13 @@ function AdminDashboard() {
                </div>
                 <div className='gridContainer'>
      
-             <Box sx={{ flexGrow: 1 }}>
+             <Box sx={{ flexGrow: 1 }} >
              <Grid container spacing={2}>
             
             {
               titles.map(title => (
-                <Grid item xs={8} md={4} key={title.id}>
-                <Item><DisplayCard title={title}/></Item>
+                <Grid item xs={8} md={4} key={title.id} className='gridItem'>
+                <Item className='itemCard'><DisplayCard title={title}/></Item>
               </Grid>
               ))
             }

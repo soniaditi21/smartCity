@@ -21,7 +21,7 @@ export default function UserSidePanel() {
         
           <Link
             to={{ pathname: "/dashboard" }}
-            style={{ textDecoration: "none", color: '#FFD700' }}
+            style={{ textDecoration: "none", color: '#fff' }}
           >
             <Box className='item'>
             <Typography style={{fontSize: '18px'}}>Dashboard</Typography>
@@ -31,8 +31,8 @@ export default function UserSidePanel() {
 
         
           <Link
-            to={{ pathname: "/atms" }}
-            style={{ textDecoration: "none", color: '#FFD700' }}
+            to={{ pathname: "/ATM" }}
+            style={{ textDecoration: "none", color: '#fff' }}
           >
             <Box className='item'>
             <Typography style={{fontSize: '18px'}}>ATMS</Typography>
@@ -42,8 +42,8 @@ export default function UserSidePanel() {
           </Link>
 
           <Link
-            to={{ pathname: "/hospitals" }}
-            style={{ textDecoration: "none", color: '#FFD700' }}
+            to={{ pathname: "/Hospital" }}
+            style={{ textDecoration: "none", color: '#fff' }}
           >
             <Box className='item'>
             <Typography style={{fontSize: '18px'}}>Hospitals</Typography>
@@ -54,8 +54,8 @@ export default function UserSidePanel() {
         
 
           <Link
-            to={{ pathname: "/hotels" }}
-            style={{ textDecoration: "none", color: '#FFD700' }}
+            to={{ pathname: "/Hotel" }}
+            style={{ textDecoration: "none", color: '#fff' }}
           >
             <Box className='item'>
             <Typography style={{fontSize: '18px'}}>Hotels</Typography>
@@ -65,8 +65,8 @@ export default function UserSidePanel() {
           </Link>
 
           <Link
-            to={{ pathname: "/schools" }}
-            style={{ textDecoration: "none" , color: '#FFD700'}}
+            to={{ pathname: "/School" }}
+            style={{ textDecoration: "none" , color: '#fff'}}
           >
             <Box className='item'>
             <Typography style={{fontSize: '18px'}}>School</Typography>
@@ -75,8 +75,8 @@ export default function UserSidePanel() {
           </Link>
 
           <Link
-            to={{ pathname: "/colleges" }}
-            style={{ textDecoration: "none" , color: '#FFD700'}}
+            to={{ pathname: "/College" }}
+            style={{ textDecoration: "none" , color: '#fff'}}
           >
             <Box className='item'>
             <Typography style={{fontSize: '18px'}}>Colleges</Typography>
@@ -86,8 +86,8 @@ export default function UserSidePanel() {
           </Link>
 
           <Link
-            to={{ pathname: "/libraries" }}
-            style={{ textDecoration: "none", color: '#FFD700' }}
+            to={{ pathname: "/Library" }}
+            style={{ textDecoration: "none", color: '#fff' }}
           >
             <Box className='item'>
             <Typography style={{fontSize: '18px'}}>Libraries</Typography>
@@ -97,8 +97,8 @@ export default function UserSidePanel() {
           </Link>
 
           <Link
-            to={{ pathname: "/shoppingMalls" }}
-            style={{ textDecoration: "none", color: '#FFD700' }}
+            to={{ pathname: "/ShoppingMalls" }}
+            style={{ textDecoration: "none", color: '#fff' }}
           >
             <Box className='item'>
             <Typography style={{fontSize: '18px'}}>Shopping Malls</Typography>
@@ -108,8 +108,8 @@ export default function UserSidePanel() {
           </Link>
 
           <Link
-            to={{ pathname: "/temples" }}
-            style={{ textDecoration: "none", color: '#FFD700' }}
+            to={{ pathname: "/Temple" }}
+            style={{ textDecoration: "none", color: '#fff' }}
           >
             <Box className='item'>
             <Typography style={{fontSize: '18px'}}>Temples</Typography>
@@ -119,8 +119,8 @@ export default function UserSidePanel() {
           </Link>
 
           <Link
-            to={{ pathname: "/tourism" }}
-            style={{ textDecoration: "none", color: '#FFD700' }}
+            to={{ pathname: "/Tourism" }}
+            style={{ textDecoration: "none", color: '#fff' }}
           >
             <Box className='item'>
             <Typography style={{fontSize: '18px'}}>Tourism</Typography>
@@ -130,8 +130,8 @@ export default function UserSidePanel() {
           </Link>
 
           <Link
-            to={{ pathname: "/transports" }}
-            style={{ textDecoration: "none", color: '#FFD700' }}
+            to={{ pathname: "/Transport" }}
+            style={{ textDecoration: "none", color: '#fff' }}
           >
             <Box className='item'>
             <Typography style={{fontSize: '18px'}}>Transport</Typography>
